@@ -1,0 +1,29 @@
+body > header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%
+}
+body > header > img {
+	background-color: #851300;
+	margin: 0 5%;
+	float: left;
+	width: 20%;
+}
+body > header > nav {
+	width: 100%;
+	padding: 0 0 0 20%;
+}
+body > footer {
+	font-size: 80%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-color: #062747;
+	margin: 0 auto;
+}
+body > footer > * {
+	padding: 0.5em;
+	margin: 0;
+}

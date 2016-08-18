@@ -1,0 +1,7 @@
+body > figure {
+	width: 100%;
+	margin: 0;
+}
+body > figure > img {
+	width: 100%;
+}
