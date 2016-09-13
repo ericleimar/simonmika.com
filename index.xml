@@ -1,75 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Simon Mika</title>
+    <title>Simon says</title>
     <link>http://simonmika.com/</link>
-    <description>Recent content on Simon Mika</description>
+    <description>Recent content on Simon says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2015 14:32:03 +0100</lastBuildDate>
     <atom:link href="http://simonmika.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>About</title>
-      <link>http://simonmika.com/about/</link>
-      <pubDate>Fri, 19 Jun 2015 14:32:03 +0100</pubDate>
-      
-      <guid>http://simonmika.com/about/</guid>
-      <description>
-
-&lt;p&gt;The best way to contact me is to use the contact form below.&lt;/p&gt;
-
-&lt;h1 id=&#34;address:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Address&lt;/h1&gt;
-
-&lt;p&gt;Simon Mika
-Tegelgatan 29
-752 39 Uppsala
-Sweden&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://simonmika.com/about/contact/</link>
-      <pubDate>Fri, 19 Jun 2015 14:32:03 +0100</pubDate>
-      
-      <guid>http://simonmika.com/about/contact/</guid>
-      <description>
-
-&lt;p&gt;The best way to contact me is to use the contact form below.&lt;/p&gt;
-
-&lt;h1 id=&#34;address:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Address&lt;/h1&gt;
-
-&lt;p&gt;Simon Mika
-Tegelgatan 29
-752 39 Uppsala
-Sweden&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://simonmika.com/opinions/</link>
-      <pubDate>Fri, 19 Jun 2015 14:32:03 +0100</pubDate>
-      
-      <guid>http://simonmika.com/opinions/</guid>
-      <description>&lt;p&gt;These opinions are my own and&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>http://simonmika.com/</link>
-      <pubDate>Fri, 19 Jun 2015 14:32:03 +0100</pubDate>
-      
-      <guid>http://simonmika.com/</guid>
-      <description>
-
-&lt;h1 id=&#34;test:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Test&lt;/h1&gt;
-
-&lt;p&gt;Hej&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

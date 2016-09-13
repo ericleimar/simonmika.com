@@ -1,0 +1,54 @@
+/* Black on White */
+body {
+	color: #2e3436;
+	background: #eeeeec;
+}
+body > header > h1 > a,
+body > header > h1 > a:visited,
+body > header > h1 > a:hover {
+	color: inherit;
+	background: inherit;
+}
+body > header > nav a,
+bady > header > nav a:visited,
+body > main > article > main a,
+body > main > article > main a:visited,
+body > main > article > main a:hover {
+	color: #a40000;
+}
+/* White on Red */
+body > main > article:first-child > header,
+body > main.list > article:hover > header {
+	color: #eeeeec;
+	background: #a40000;
+}
+body > main > *:first-child > header > a,
+body > main > *:first-child > header > a:visited {
+	color: inherit;
+	background: inherit;
+}
+/* White on Black */
+body > header > nav li > a:hover,
+body > main.list > article:hover > header {
+	color: #eeeeec;
+	background: #2e3436;
+}
+/* Grey on Black */
+body > footer {
+	color: #babdb6;
+	background: #2e3436;
+}
+body > footer a,
+body > footer a:visited {
+	color: inherit;
+	background: inherit;
+}
+body > footer a:hover,
+body > footer > main > article:hover {
+	color: #eeeeec;
+}
+/* Grey */
+body > main,
+body > footer > main {
+	border-left: solid 1px #babdb6;
+}
