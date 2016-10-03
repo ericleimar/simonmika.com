@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Simon says</title>
+    <link>http://simonmika.com/tags/css/</link>
+    <description>Recent content in Css on Simon says</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Aug 2016 23:18:43 +0200</lastBuildDate>
+    <atom:link href="http://simonmika.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CSS is Still Broken</title>
+      <link>http://simonmika.com/article/css-broken/</link>
+      <pubDate>Thu, 18 Aug 2016 23:18:43 +0200</pubDate>
+      
+      <guid>http://simonmika.com/article/css-broken/</guid>
+      <description>&lt;p&gt;The purpose of CSS is to describe the presentation of a document. It is created to enable &lt;a href=&#34;https://en.wikipedia.org/wiki/Separation_of_presentation_and_content&#34;&gt;separation of presentation and content&lt;/a&gt;. So far CSS has been improving the situation. We have been able to move more and more presentation out of our documents and into CSS.&lt;/p&gt;
+
+&lt;p&gt;But even today, almost 20 years after CSS was initially released, I still can&amp;rsquo;t just put all my content in an HTML-document and never have to rearrange it when i create the presentation. The order and nesting of my HTML-formated content always needs to be adopted to the layout I want to achieve with my CSS.&lt;/p&gt;
+
+&lt;p&gt;Let us consider a simple example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;doctype html&amp;gt;
+&amp;lt;html&amp;gt;
+	&amp;lt;header&amp;gt;
+		&amp;lt;meta http-equiv=&amp;quot;content-type&amp;quot; content=&amp;quot;text/html; charset=utf-8&amp;quot;&amp;gt;
+		&amp;lt;title&amp;gt;Page Title&amp;lt;title&amp;gt;
+	&amp;lt;header&amp;gt;
+	&amp;lt;body&amp;gt;
+		&amp;lt;header&amp;gt;
+		&amp;lt;header&amp;gt;
+		&amp;lt;nav&amp;gt;
+		&amp;lt;/nav&amp;gt;
+		&amp;lt;article&amp;gt;
+		&amp;lt;/article&amp;gt;
+		&amp;lt;footer&amp;gt;
+		&amp;lt;/footer&amp;gt;
+	&amp;lt;body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Why should I need to change the markup if I want to render the header and nav elements together as one unit. Today I still need to change my markup in order to achieve the layout I want. That is kind of broken as it defeats the purpose of separating style from content.&lt;/p&gt;
+
+&lt;p&gt;CSS needs a way to change:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The order of elements.&lt;/li&gt;
+&lt;li&gt;The nesting of elements.&lt;/li&gt;
+&lt;li&gt;Combine elements under a new parent.&lt;/li&gt;
+&lt;li&gt;Turn an element into a link.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So far I no clue how that would look in CSS. Maybe it is time for something totally new.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

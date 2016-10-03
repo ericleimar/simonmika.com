@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team on Simon says</title>
+    <link>http://simonmika.com/tags/team/</link>
+    <description>Recent content in Team on Simon says</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2016 23:18:43 +0200</lastBuildDate>
+    <atom:link href="http://simonmika.com/tags/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rock Star Programmers</title>
+      <link>http://simonmika.com/article/rock-star-programmers/</link>
+      <pubDate>Tue, 27 Sep 2016 23:18:43 +0200</pubDate>
+      
+      <guid>http://simonmika.com/article/rock-star-programmers/</guid>
+      <description>&lt;p&gt;Sometimes I come across programmers that view themselves as rock stars. Some even label themselves code ninjas. As if they are some kind of programming super hero with special powers.&lt;/p&gt;
+
+&lt;p&gt;While a do realize where this comes from. A good programmer can easily be more then ten times as productive as an average one. We do also need good raw models and front figures for our profession.&lt;/p&gt;
+
+&lt;p&gt;But programming is almost never a one man show. Most real world projects are impossible to finish yourself within a reasonable time. They are team efforts. Therefore a real programming hero is a someone who not only is a very productive expert but who also helps the rest of the team to reach their full potential by mentoring and encouraging them.&lt;/p&gt;
+
+&lt;p&gt;The rock star attitude is the opposite of the humble and encouraging attitude a good mentor. So let us stop taking about code ninjas as a good thing and instead let us celebrate the mentors.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

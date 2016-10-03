@@ -1,3 +1,6 @@
+body > header > h1 > a > img {
+	max-width: 80%;
+}
 body > header > h1 {
 	padding-top: 10%;
 	margin-bottom: 0;
@@ -5,6 +8,11 @@ body > header > h1 {
 body > header > p {
 	margin-top: 0;
 	padding-bottom: 10%;
+	margin-left: 2em;
+}
+body > header > nav li,
+body > footer > nav li {
+	margin: 1em 0;
 }
 body > header > nav li > a,
 body > main > * > * {
@@ -17,6 +25,23 @@ body > main > * > *,
 body > footer > main > * > * {
 	padding-left: 1em;
 	padding-right: 1em;
+}
+body > main > footer > nav {
+	display: table;
+	width: 100%;
+	max-width: 10em;
+	margin: 0 auto;
+}
+body > main > footer > nav > ul {
+	display: table-row;
+	width: 100%;
+}
+body > main > footer > nav > ul li {
+	display: table-cell;
+}
+body > main > footer > nav > ul li > a {
+	display: block;
+	width: 100%;
 }
 body > main > article,
 body > footer > main > article {
@@ -93,6 +118,17 @@ body > footer > footer {
 body > header > nav {
 	display: none;
 }
+body > footer > nav {
+	display: table;
+	width: 100%;
+}
+body > footer > nav > ul {
+	display: table-row;
+}
+body > footer > nav > ul > li {
+	display: table-cell;
+}
+
 /* Wide */
 @media screen and (min-width: 640px) {
 	body > header,
@@ -130,4 +166,13 @@ body > header > nav {
 	body > footer > nav li > a {
 		padding-right: 10%;
 	}
+body > footer > nav {
+	display: unset;
+}
+body > footer > nav > ul {
+	display: block;
+}
+body > footer > nav > ul > li {
+	display: block;
+}
 }
