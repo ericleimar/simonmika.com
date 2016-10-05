@@ -25,7 +25,8 @@ body > main > article > main a:hover {
 }
 /* White on Red */
 body > main > article:first-child > header,
-body > main.list > article:hover > header {
+body > main.list > article:hover > header,
+body > main > article > main blockquote {
 	color: #eeeeec;
 	background: #a40000;
 }

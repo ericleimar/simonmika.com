@@ -23,6 +23,15 @@ body > main > header > p,
 body > main > article > header > p {
 	font-size: 85%;
 }
+body > main > article > main blockquote {
+	font-size: 1.4em;
+}
+body > main > article > main blockquote p {
+	margin: 0.2em 0;
+}
+body > footer > main > article > main h1 {
+	font-size: 0.6em;
+}
 body > footer > nav  li > a,
 body > footer > main > article > header > h1 {
 	font-size: 1em;

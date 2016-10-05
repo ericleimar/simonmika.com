@@ -26,6 +26,15 @@ body > footer > main > * > * {
 	padding-left: 1em;
 	padding-right: 1em;
 }
+body > main > article > main blockquote {
+	padding: 0.4em 0.7em;
+}
+body > main > article > main blockquote > *:first-child:before {
+	content: "“";
+}
+body > main > article > main blockquote > *:last-child:after {
+	content: "”";
+}
 body > main > footer > nav {
 	display: table;
 	width: 100%;
@@ -46,6 +55,9 @@ body > main > footer > nav > ul li > a {
 body > main > article,
 body > footer > main > article {
 	position: relative;
+}
+body > main > article > nav {
+	display: none;
 }
 body > main > article > .self-link,
 body > footer > main > article > .self-link {
@@ -158,6 +170,11 @@ body > footer > nav > ul > li {
 	body > main > * > *,
 	body > footer > main > * > * {
 		padding-left: 10%;
+	}
+	body > main > article > main blockquote {
+		float: right;
+		max-width: 10em;
+		margin: 0.25em -0.5em 0.25em 0.25em;
 	}
 	body > header > *:not(nav) {
 		padding-right: 10%;
