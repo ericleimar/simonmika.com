@@ -9,26 +9,33 @@
 }
 /* Color */
 body > main > article > main blockquote,
-body > main > article > main blockquote a.share:link,
-body > main > article > main blockquote a.share:visited,
-body > main > article > main blockquote a.share:active,
-body > main > article > main blockquote a.share:after {
-	color: #eeeeec;
-	background: #a40000;
+.share:link,
+.share:visited,
+.share:active,
+.share:after {
+	color: #babdb6;
+	background: #2e3436;
 }
-body > main > article > main blockquote a.share:hover:after {
+.share:hover:after {
 	background: #eeeeec;
 	color: #a40000;
 }
 /* Layout */
 body > main > article > main blockquote {
-	padding: 0.4em 0.7em;
+	padding: .4em .7em;
+	overflow-y: hidden;
 }
 body > main > article > main blockquote > *:not(.share):before {
 	content: "“";
 }
 body > main > article > main blockquote > *:not(.share):after {
 	content: "”";
+}
+.share:after {
+	width: 1.2em;
+	height: 1.2em;
+	border-radius: .75em;
+	text-align: center;
 }
 .share:after {
 	display: block;
@@ -58,6 +65,11 @@ body > main > article > main blockquote > *:not(.share):after {
 	body > main > article > main blockquote {
 		float: right;
 		max-width: 12em;
-		margin: 0.25em -0.5em 0.25em 0.25em;
+		margin: 0.25em -1em 0.25em 0.25em;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body > main > article > main blockquote {
+		margin-right: calc((1024px - 100vw) * .63 - 1em);
 	}
 }
