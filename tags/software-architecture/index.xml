@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Architecture on Simon says</title>
+    <link>http://simonmika.com/tags/software-architecture/</link>
+    <description>Recent content in Software Architecture on Simon says</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Sep 2016 08:15:46 +0200</lastBuildDate>
+    <atom:link href="http://simonmika.com/tags/software-architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Abstractions</title>
+      <link>http://simonmika.com/article/abstractions/</link>
+      <pubDate>Thu, 29 Sep 2016 08:15:46 +0200</pubDate>
+      
+      <guid>http://simonmika.com/article/abstractions/</guid>
+      <description>&lt;p&gt;We humans can in our head only concurrently work with about eight items. If we try to work with significantly more we will lose some items. It is the human equivalent of a stack overflow. Our stack has a maximum depth of about eight. In order to handle more we need to bundle items together into a new item. It is the equivalent of grouping them together in a data structure and putting them into the heap and just store the pointer to it all on the stack.&lt;/p&gt;
+
+&lt;p&gt;This is one of the main reasons programming is all about creating abstractions. Abstractions enable us to reason about bigger chunks of code. Well done, they also enable us to cooperate in large groups.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Programming is all about creating abstractions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lack of abstractions is the single most common reason for technical depth in software. This probably comes from the fact that programming is to instruct a computer, mostly in a linear manner. It is like constructing a new car model using step by step instruction of how to manufacture and combine the parts, without separating the instructions into parts and subassemblies. Like starting the instructions with take a peace of steel and place it in the lathe and then continue in a similar manner until the factory roll out. The bigger picture is lost in all the details.&lt;/p&gt;
+
+&lt;p&gt;When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how they perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

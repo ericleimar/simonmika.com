@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Html on Simon says</title>
-    <link>http://simonmika.com/tags/html/</link>
-    <description>Recent content in Html on Simon says</description>
+    <title>Web on Simon says</title>
+    <link>http://simonmika.com/tags/web/</link>
+    <description>Recent content in Web on Simon says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Aug 2016 23:18:43 +0200</lastBuildDate>
-    <atom:link href="http://simonmika.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://simonmika.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CSS is Still Broken</title>

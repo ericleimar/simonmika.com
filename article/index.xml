@@ -69,9 +69,13 @@
 
 &lt;p&gt;This is one of the main reasons programming is all about creating abstractions. Abstractions enable us to reason about bigger chunks of code. Well done, they also enable us to cooperate in large groups.&lt;/p&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;Programming is all about creating abstractions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Lack of abstractions is the single most common reason for technical depth in software. This probably comes from the fact that programming is to instruct a computer, mostly in a linear manner. It is like constructing a new car model using step by step instruction of how to manufacture and combine the parts, without separating the instructions into parts and subassemblies. Like starting the instructions with take a peace of steel and place it in the lathe and then continue in a similar manner until the factory roll out. The bigger picture is lost in all the details.&lt;/p&gt;
 
-&lt;p&gt;When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how the perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.&lt;/p&gt;
+&lt;p&gt;When we program we need to spend more time thinking about the bigger picture, how the different parts interact and focus less on how they perform their tasks inside the black box. If we get the first part right the later is a lot easier to fix later. If it even needs fixing.&lt;/p&gt;
 </description>
     </item>
     
@@ -89,6 +93,10 @@
 
 &lt;p&gt;Some, mostly bigger, companies forget the reciprocal part. For them it is all about efficient selection. Like they are buyers on some kind of slave market. Send us your resume. Fill out this form. Do this task. They forget about courting the future employee and inspiring them to join.&lt;/p&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;They forget about courting the future employee and inspiring them to join.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;On every step in our recruiting process we should not only think about what new information we will get about the candidate but we should also think hard about what the candidate will learn about us. If we don&amp;rsquo;t we will likely end up loosing the best, most qualified and most attractive candidates. It is after all an employees market.&lt;/p&gt;
 </description>
     </item>
@@ -102,6 +110,10 @@
       <description>&lt;p&gt;Sometimes I come across programmers that view themselves as rock stars. Some even label themselves code ninjas. As if they are some kind of programming super hero with special powers.&lt;/p&gt;
 
 &lt;p&gt;While a do realize where this comes from. A good programmer can easily be more then ten times as productive as an average one. We do also need good raw models and front figures for our profession.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Programming is not a one man show.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;But programming is almost never a one man show. Most real world projects are impossible to finish yourself within a reasonable time. They are team efforts. Therefore a real programming hero is a someone who not only is a very productive expert but who also helps the rest of the team to reach their full potential by mentoring and encouraging them.&lt;/p&gt;
 

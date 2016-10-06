@@ -1,0 +1,63 @@
+/* Text */
+@font-face {
+	font-family: "Sosa Regular";
+	src: url(sosa-regular-webfont.woff);
+}
+.share:after {
+	font-family: "Sosa Regular";
+	font-size: 0.8em;
+}
+/* Color */
+body > main > article > main blockquote,
+body > main > article > main blockquote a.share:link,
+body > main > article > main blockquote a.share:visited,
+body > main > article > main blockquote a.share:active,
+body > main > article > main blockquote a.share:after {
+	color: #eeeeec;
+	background: #a40000;
+}
+body > main > article > main blockquote a.share:hover:after {
+	background: #eeeeec;
+	color: #a40000;
+}
+/* Layout */
+body > main > article > main blockquote {
+	padding: 0.4em 0.7em;
+}
+body > main > article > main blockquote > *:not(.share):before {
+	content: "“";
+}
+body > main > article > main blockquote > *:not(.share):after {
+	content: "”";
+}
+.share:after {
+	display: block;
+	clear: right;
+	float: right;
+	padding: 0.2em;
+}
+.share::first-child:after {
+	padding-top: 0.2em;
+}
+.share::last-child:after {
+	padding-bottom: 0.2em;
+}
+.share.twitter:after {
+	content: "t";
+}
+.share.linkedin:after {
+	content: "ą";
+}
+.share.facebook:after {
+	content: "v";
+}
+.share.googleplus:after {
+	content: "Ć ";
+}
+@media screen and (min-width: 640px) {
+	body > main > article > main blockquote {
+		float: right;
+		max-width: 12em;
+		margin: 0.25em -0.5em 0.25em 0.25em;
+	}
+}
