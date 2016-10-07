@@ -22,7 +22,9 @@ body > main > article > main blockquote,
 }
 /* Layout */
 body > main > article > main blockquote {
-	padding: .4em .7em;
+	margin-left: -1em;
+	margin-right: -1em;
+	padding: .4em 1em;
 	overflow-y: hidden;
 }
 body > main > article > main blockquote > *:not(.share):before {
@@ -61,15 +63,23 @@ body > main > article > main blockquote > *:not(.share):after {
 .share.googleplus:after {
 	content: "Ć ";
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 480px) {
+	body > main > article > main blockquote {
+		margin-left: calc(-10vw * .63);
+		padding-left: calc(10vw * .63);
+	}
+}
+@media screen and (min-width: 960px) {
 	body > main > article > main blockquote {
 		float: right;
 		max-width: 12em;
 		margin: 0.25em -1em 0.25em 0.25em;
+		padding-left: 1em;
 	}
 }
 @media screen and (min-width: 1024px) {
 	body > main > article > main blockquote {
 		margin-right: calc((1024px - 100vw) * .63 - 1em);
+		max-width: calc(12em + (100vw - 1024px) * .63 * .5);
 	}
 }
